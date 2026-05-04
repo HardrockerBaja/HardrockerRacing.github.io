@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="https://hardrocker.racing/" />
+  <link rel="canonical" href="https://hardrocker.racing/" />
+  <title>404 - Page Not Found | Hardrocker Racing</title>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist/shoelace.js"></script>
+  <script type="module">
+    import { setBasePath } from 'https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist/utilities/base-path.js';
+    setBasePath('https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist');
+  </script>
+  <link rel="stylesheet" href="master.css" />
+  <style>
+    .hero::before {
+      background: linear-gradient(135deg, rgba(249, 213, 110, 0.12), transparent 35%),
+        radial-gradient(circle at 75% 10%, rgba(255, 255, 255, 0.14), transparent 18%),
+        radial-gradient(circle at 15% 80%, rgba(249, 213, 110, 0.14), transparent 22%),
+        url('Images/mav_flip.png') no-repeat center center / cover;
+    }
+  </style>
+  
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand">
+      <a href="https://hardrocker.racing/">Hardrocker Racing</a>
+    </div>
+    <nav>
+      <a class="active" href="https://hardrocker.racing/">Home</a>
+      <a href="https://baja.hardrocker.racing/">Baja</a>
+      <a href="https://formula.hardrocker.racing/">Formula</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <span class="eyebrow">404 Error</span>
+        <h1>Oops! Page Not Found</h1>
+        <p>The page you're looking for might have been moved, deleted, or doesn't exist. Let's get you back on track!</p>
+        <div class="button-group">
+          <a class="primary" href="/">Go Home</a>
+          <a class="secondary" href="https://baja.hardrocker.racing/">Explore Baja</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h2>Need Help?</h2>
+        <p>If you believe this is an error or need assistance, feel free to contact our team. We're here to help!</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
