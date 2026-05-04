@@ -130,10 +130,13 @@ main {
   justify-content: center;
   min-width: 150px;
   padding: 0.95rem 1.35rem;
-  border-radius: 999px;
+  border-radius: 8px;
   font-weight: 700;
   text-decoration: none;
-  transition: transform 0.2s ease, filter 0.2s ease;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.9rem;
 }
 
 .button-group a.primary {
@@ -141,15 +144,23 @@ main {
   color: #10233f;
 }
 
-.button-group a.secondary {
-  background: rgba(255, 255, 255, 0.08);
-  color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.16);
+.button-group a.primary:hover {
+  background: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(249, 213, 110, 0.4);
 }
 
-.button-group a:hover {
-  transform: translateY(-1px);
-  filter: saturate(1.1);
+.button-group a.secondary {
+  background: transparent;
+  color: #f9d56e;
+  border: 2px solid #f9d56e;
+}
+
+.button-group a.secondary:hover {
+  background: #f9d56e;
+  color: #10233f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(249, 213, 110, 0.4);
 }
 
 .hero-card {
