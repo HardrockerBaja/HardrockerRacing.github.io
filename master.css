@@ -43,6 +43,7 @@ header.navbar {
   letter-spacing: 0.08em;
   text-decoration: none;
   text-transform: uppercase;
+  opacity: 1;
 }
 
 .navbar nav {
