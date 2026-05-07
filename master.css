@@ -50,6 +50,7 @@ header.navbar {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  opacity: 1;
 }
 
 .navbar a {
@@ -59,11 +60,13 @@ header.navbar {
   padding: 0.65rem 0.9rem;
   border-radius: 999px;
   transition: background 0.2s ease, color 0.2s ease;
+  opacity: 1;
 }
 
 .navbar a:hover {
   background: rgba(249, 213, 110, 0.12);
   color: #f9d56e;
+  opacity: 1;
 }
 
 .navbar a.active {
@@ -71,6 +74,7 @@ header.navbar {
   color: #10233f;
   box-shadow: 0 8px 28px rgba(16, 35, 63, 0.16);
   transform: translateY(-1px);
+  opacity: 1;
 }
 
 main {
