@@ -29,7 +29,7 @@ header.navbar {
   padding: 1.25rem 1.5rem;
   position: sticky;
   top: 0;
-  background: rgba(6, 32, 78, 0.40);
+  background: rgba(6, 32, 78, 0.60);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   z-index: 10;
