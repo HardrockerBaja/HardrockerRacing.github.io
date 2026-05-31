@@ -78,7 +78,7 @@ main {
 }
 
 .hero {
-  min-height: calc(100vh - 75px);
+  min-height: calc(100vh - 130px);
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
